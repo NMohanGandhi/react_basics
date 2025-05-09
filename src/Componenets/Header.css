@@ -1,0 +1,65 @@
+.header {
+  background-color: white;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Logo and nav combined to reduce spacing */
+.logo-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust this to control space between logo and nav */
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.nav-menu a:hover {
+  color: #ffb700;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cart-icon {
+  height: 24px;
+}
+
+.login-btn {
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
