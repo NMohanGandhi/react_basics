@@ -22,7 +22,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="hero-image">
-          <img src={Fightagaiist} alt="Child Eating" />
+          <img src={Fightagaiist} style={{width:'300px'}} alt="Child Eating" />
         </div>
       </div>
     </section>

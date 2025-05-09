@@ -1,12 +1,12 @@
 import React from 'react';
 import './visionmission.css';
-import OurVision from '../assets/OurVision.png'
-import OurMission from '../assets/OurMission.png'
+import OurVision from '../assets/OurVision.png';
+import OurMission from '../assets/OurMission.png';
 
 const VisionMission = () => {
   return (
     <section className="vision-mission-section">
-      {/* Vision Section */}
+      {/* Vision */}
       <div className="vision-mission-block">
         <div className="vm-text">
           <h2>Our Vision</h2>
@@ -17,19 +17,17 @@ const VisionMission = () => {
           </p>
           <a href="#" className="read-more">READ MORE</a>
         </div>
-        <div className="vm-image-container">
-          <div className="image-bg">
-            <img src={OurVision} alt="Our Vision" />
-          </div>
+        <div className="vm-image-wrapper">
+          <div className="image-bg-shape" />
+          <img src={OurVision} alt="A child receiving food - representing vision" className="vm-image" />
         </div>
       </div>
 
-      {/* Mission Section */}
+      {/* Mission */}
       <div className="vision-mission-block reverse">
-        <div className="vm-image-container">
-          <div className="image-bg">
-            <img src={OurMission} alt="Our Mission" />
-          </div>
+        <div className="vm-image-wrapper">
+          <div className="image-bg-shape" />
+          <img src={OurMission} alt="A child with food in front - representing mission" className="vm-image" />
         </div>
         <div className="vm-text">
           <h2>Our Mission</h2>

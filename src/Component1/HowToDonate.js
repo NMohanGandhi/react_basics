@@ -1,6 +1,7 @@
 import React from 'react';
 import './HowToDonate.css';
-import Donate from '../assets/DONATE.png'
+import Donate from '../assets/DONATE.png';
+//import DonateFoodItems from '../assets/DonateFoodItems.jpg'
 
 const donateOptions = [
   {

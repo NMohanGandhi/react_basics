@@ -1,21 +1,24 @@
 import React from 'react';
 //import './corevalues.css';
 import './Corevalues.css';
+import Compassion from '../assets/Compassion.png';
+import Integrity from '../assets/Integrity.png';
+import Sustainability from '../assets/Sustainability.png';
 
 
 const values = [
   {
-    icon: '/assets/compassion.png',
+    icon: Compassion,
     title: 'Compassion',
     description: 'We work with empathy and kindness to meet the immediate and long-term needs of our neighbors.',
   },
   {
-    icon: '/assets/integrity.png',
+    icon: Integrity,
     title: 'Integrity',
     description: 'We are committed to transparency, accountability, and ethical practices in everything we do.',
   },
   {
-    icon: '/assets/sustainability.png',
+    icon: Sustainability,
     title: 'Sustainability',
     description: 'We focus on reducing food waste and finding sustainable solutions to hunger.',
   },

@@ -31,7 +31,7 @@ function SuccessStories() {
       setCurrentIndex((prevIndex) =>
         prevIndex === stories.length - 1 ? 0 : prevIndex + 1
       );
-    }, 10000); // 10 seconds
+    }, 2000); // 2 seconds
 
     return () => clearInterval(interval);
   }, []);
