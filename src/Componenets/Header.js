@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container">
-        {/* Logo and Navigation */}
+        {/* Left Section: Logo and Navigation */}
         <div className="header-left">
           <img src={companylogo} alt="Goodgive Logo" className="logo" />
           <nav className="nav-menu">
@@ -23,7 +23,7 @@ const Header = () => {
           </nav>
         </div>
 
-        {/* Cart and Login */}
+        {/* Right Section: Cart and Login */}
         <div className="header-right">
           <img src={Cart} alt="Cart Icon" className="cart-icon" />
           <button className="login-btn">Login</button>

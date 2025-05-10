@@ -25,7 +25,7 @@ const VisionMission = () => {
 
       {/* Mission */}
       <div className="vision-mission-block reverse">
-        <div className="vm-image-wrapper">
+        <div className="vm-image-wrapper with-bg">
           <div className="image-bg-shape" />
           <img src={OurMission} alt="A child with food in front - representing mission" className="vm-image" />
         </div>

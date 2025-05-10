@@ -1,15 +1,15 @@
-// src/components/HeroSection.jsx
 import React from 'react';
 import './Herocomponent.css';
-import Fightagaiist from '../assets/Fightagaiist.png'
+import Fightagainist from '../assets/Fightagaiist.png';
 
 const HeroSection = () => {
   return (
     <section className="hero">
       <div className="hero-container">
-        <div className="hero-text">
+        <div className="hero-left">
           <h1>
-            Fight Against <br/> Hunger Donating <br/>
+            Fight Against <br />
+            Hunger Donating <br />
             <span className="highlight">Food Today</span>
           </h1>
           <p>
@@ -21,8 +21,10 @@ const HeroSection = () => {
             <button className="btn-secondary">Register as Volunteer</button>
           </div>
         </div>
-        <div className="hero-image">
-          <img src={Fightagaiist} style={{width:'300px'}} alt="Child Eating" />
+        <div className="hero-right">
+          <div className="image-background">
+            <img src={Fightagainist} alt="Child Eating" />
+          </div>
         </div>
       </div>
     </section>
