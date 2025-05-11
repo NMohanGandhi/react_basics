@@ -7,14 +7,15 @@ const HeroSection = () => {
     <section className="hero">
       <div className="hero-container">
         <div className="hero-left">
-          <h1>
+          <h1 className="hero-heading">
             Fight Against <br />
             Hunger Donating <br />
             <span className="highlight">Food Today</span>
           </h1>
-          <p>
-            Your donation can help provide food to people who are struggling to
-            feed themselves and their families
+          <p className="hero-description">
+            Your donation can help provide food to<br/>
+            people who are struggling to feed<br/> 
+            themselves and their families
           </p>
           <div className="hero-buttons">
             <button className="btn-primary">Donate Now</button>

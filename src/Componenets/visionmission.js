@@ -11,9 +11,9 @@ const VisionMission = () => {
         <div className="vm-text">
           <h2>Our Vision</h2>
           <p>
-            A hunger-free world where every individual has access to the food they need to thrive.
-            We envision a world where food insecurity is a thing of the past, and where communities
-            work together to support and care for one another.
+            A hunger-free world where every individual has access to the<br/> food they need to thrive.
+            We envision a world where food<br/> insecurity is a thing of the past, and where communities
+            work<br/>together to support and care for one another.
           </p>
           <a href="#" className="read-more">READ MORE</a>
         </div>

@@ -16,6 +16,8 @@
 .vm-text {
   flex: 1;
   max-width: 500px;
+  text-align: left;
+  margin-left: 80px;
 }
 
 .vm-text h2 {
@@ -34,11 +36,13 @@
 .read-more {
   color: #f6a800;
   font-weight: bold;
+  
   text-decoration: none;
 }
 
 .read-more:hover {
   text-decoration: underline;
+  
 }
 
 .vm-image-wrapper {
@@ -69,3 +73,4 @@
   z-index: 2;
   object-fit: cover;
 }
+

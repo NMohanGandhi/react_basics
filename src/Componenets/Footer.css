@@ -1,9 +1,17 @@
+
 .impact-section {
   background-color: #1e4d65;
+  background-image: url('C:\Users\mohan\Desktop\react_basics\src\assets\Our Impact So Far Wave BG.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
   color: #ffffff;
-  padding: 60px 20px;
+  padding: 25px 20px;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
+
 
 .impact-content h2 {
   font-size: 28px;

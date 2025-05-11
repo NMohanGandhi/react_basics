@@ -30,7 +30,7 @@ const CoreValues = () => {
       <div className="cv-header">
         <h2>Our core values</h2>
         <p>
-          Torquem detraxit hosti et quidem se ipsam causam non fuisse torquem detraxit hosti et quidem
+          Torquem detraxit hosti et quidem se ipsam causam non fuisse torquem detraxit hosti et quidem<br/>
           se texit, ne ad respondendum reddidisti voluptates omittantur maiorum dolorum fuga.
         </p>
       </div>
