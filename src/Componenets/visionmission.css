@@ -1,9 +1,14 @@
+/* Overall section styling */
 .vision-mission-section {
-  padding: 4rem 2rem;
+  padding: 2rem;
   max-width: 1200px;
   margin: auto;
+  background-color: #f4f4f4;
+  height: auto;
+  min-height: 500px;
 }
 
+/* Flex layout for each block */
 .vision-mission-block {
   display: flex;
   align-items: center;
@@ -13,11 +18,17 @@
   flex-wrap: wrap;
 }
 
-.vm-text {
+.vm-text,
+.vm-image-wrapper {
   flex: 1;
-  max-width: 500px;
+  width: 50%; /* Makes text and image blocks equal width */
   text-align: left;
-  margin-left: 80px;
+}
+
+/* Styling for text content */
+.vm-text {
+  max-width: 500px;
+  margin-left: 100px; /* Balanced left margin */
 }
 
 .vm-text h2 {
@@ -36,33 +47,19 @@
 .read-more {
   color: #f6a800;
   font-weight: bold;
-  
   text-decoration: none;
 }
 
 .read-more:hover {
   text-decoration: underline;
-  
 }
 
+/* Image styling */
 .vm-image-wrapper {
   position: relative;
-  flex: 1;
-  max-width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.image-bg-shape {
-  position: absolute;
-  width: 90%;
-  height: 90%;
-  background-color: #f3e4da;
-  border-radius: 2rem;
-  z-index: 1;
-  top: 10px;
-  left: 10px;
 }
 
 .vm-image {
@@ -74,3 +71,23 @@
   object-fit: cover;
 }
 
+/* Background image constraints for Mission section */
+.vm-image-wrapper.with-bg {
+  background-image: url('../assets/Misn_BGImage.png'); /* Replace with your actual image path */
+  background-size: contain; /* Keeps the image within constraints */
+  background-position: left bottom; /* Ensures it stops at the image corner */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto; /* Dynamically adjust height */
+}
+
+/* Shape overlay effect */
+.image-bg-shape {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  border-radius: 2rem;
+  z-index: 1;
+  top: 10px;
+  left: 10px;
+}
